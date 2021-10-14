@@ -83,9 +83,11 @@ print(building.current_temperature) # returns ~16.4
 
 ### Installation
 
-Best install simplesimple in editable mode:
-
-    $ pip install -e .
+* `python3 -m venv venv`
+* `source venv/bin/activate`
+* `pip install -e .`
+* `pip install -r extras.txt`
+* `venv/bin/jupyter lab`
 
 ### Run the test suite
 
